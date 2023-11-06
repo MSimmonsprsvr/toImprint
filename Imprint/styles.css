@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+    background-color: #9b59b6; /* Unique Amethyst color */
+    color: #ae48b9;
+   background-image: url("https://wallpapers.com/images/featured-small/wolf-desktop-z6izk3kyhlw6blcc.webp");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+.moon {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+    background: url('moon.png') no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.wolves {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    display: flex;
+    z-index: 2;
+}
+
+.wolves img {
+    width: 200px;
+    height: 200px;
+    margin: 0 10px;
+}
+
+.content {
+    text-align: center;
+    padding: 40px;
+    z-index: 2;
+    max-width: 325px;
+    background-color: rgba(0, 0, 0, 0.656); 
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.949);
+    margin: 0 auto;
+    
+
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
